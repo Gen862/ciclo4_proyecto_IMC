@@ -1,4 +1,4 @@
-TÍTULO DEL PROEYCTO:
+TÍTULO DEL PROYECTO:
 "IMC" (Indice de Masa Corporal)
 
 Proyecto: 
