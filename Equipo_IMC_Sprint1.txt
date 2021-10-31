@@ -1,0 +1,11 @@
+
+Nombre del equipo: IMC
+
+
+-Integrantes:
+
+	*Jeimmy camelo					Rol: Product Owner
+	*Jessica Moreno					Rol: Desarrollador
+	*John Edier Vargas Agudelo			Rol: Desarrollador
+	*Genesis Hildalith Contreras Palomino		Rol: Scrum Master
+	*Jesús David Guevara Munar 			Rol: Desarrollador
