@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Resultado">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MONITOREO DE IMC"
+        android:gravity="center_horizontal"
+        android:textSize="40sp"
+        android:layout_margin="40dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Su IMC es:"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/Resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+         />
+    <Button
+        android:id="@+id/volver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="volver"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:layout_margin="30dp"/>
+
+
+
+
+
+</LinearLayout>
