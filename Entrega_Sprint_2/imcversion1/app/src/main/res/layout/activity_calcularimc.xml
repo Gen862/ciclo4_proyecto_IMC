@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".calcularimc">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MONITOREO DE IMC"
+        android:gravity="center_horizontal"
+        android:textSize="40sp"
+        android:layout_margin="40dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peso en Kilogramos (Kg):"
+        android:textSize="30sp"
+        android:layout_margin="5dp" />
+
+    <EditText
+        android:id="@+id/Peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Altura en metros (m):"
+        android:textSize="30sp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/Altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    <Button
+        android:id="@+id/boton_ir_calcularimc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="calcular imc"
+        android:onClick= "CalcularOnClick"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/volver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="volver"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
