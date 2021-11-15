@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Indice de Masa Corporal</string>
+    <string name="nombre">Nombre</string>
+    <string name="edad">Edad</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="saludo">Saludo</string>
+    <string name="peso_kg">Peso en Kilográmos (Kg)</string>
+    <string name="altura_m">Altura: ejemplo 1.72</string>
+    <string name="recorre">Recorre tu figura</string>
+    <string name="suImc">Su IMC es:</string>
+    <string name="otroImc">Calcular otro IMC</string>
+    <string name="conse">Consejos</string>
+    <string name="registros">Registros IMC</string>
+
+</resources>

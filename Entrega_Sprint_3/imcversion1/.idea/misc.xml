@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Jeka_/Downloads/IMC_V2/imcversion1/app/src/main/res/layout/activity_calcularimc.xml" value="0.1" />
+        <entry key="..\:/Users/Jeka_/Downloads/IMC_V2/imcversion1/app/src/main/res/layout/activity_main.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Jeka_/Downloads/IMC_V2/imcversion1/app/src/main/res/layout/activity_resultado.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1621376811594203" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

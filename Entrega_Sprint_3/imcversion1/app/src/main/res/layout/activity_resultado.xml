@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="84dp"
+        android:layout_height="35dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".1"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="SU IMC ES:"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="74dp"/>
+
+    <EditText
+        android:id="@+id/Resultado"
+        android:layout_width="274dp"
+        android:layout_height="41dp"
+        android:background="@drawable/edit_text_bd"
+        android:backgroundTint="#D6D6D6"
+        android:clickable="false"
+        android:ems="10"
+        android:foregroundGravity="center"
+        android:gravity="center_horizontal|center_vertical"
+        android:singleLine="false"
+        android:textAlignment="center"
+        tools:ignore="Autofill,LabelFor,MissingConstraints,SpeakableTextPresentCheck,TextFields,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="ESTAS EN:"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="70dp" />
+    <EditText
+        android:id="@+id/descripcion_peso"
+        android:layout_width="274dp"
+        android:layout_height="41dp"
+        android:background="@drawable/edit_text_bd"
+        android:backgroundTint="#D6D6D6"
+        android:clickable="false"
+        android:ems="10"
+        android:foregroundGravity="center"
+        android:gravity="center_horizontal|center_vertical"
+        android:singleLine="false"
+        android:textAlignment="center"
+        tools:ignore="Autofill,LabelFor,MissingConstraints,SpeakableTextPresentCheck,TextFields,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+
+    <Button
+        android:id="@+id/guardar_imc"
+        android:layout_width="121dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/buttom_bd"
+        android:padding="8dp"
+        android:text="GuardarIMC"
+        android:textSize="9sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Resultado"
+        tools:ignore="MissingConstraints,SmallSp,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/consejos"
+        android:layout_width="121dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/buttom_bd"
+        android:padding="8dp"
+        android:text="@string/conse"
+        android:textSize="9sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/volver_inicio"
+        tools:ignore="MissingConstraints,SmallSp,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/volver"
+        android:layout_width="121dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/buttom_bd"
+        android:padding="8dp"
+        android:text="@string/otroImc"
+        android:textSize="9sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/consejos"
+        tools:ignore="MissingConstraints,SmallSp,TouchTargetSizeCheck" />
+    <Button
+        android:id="@+id/volver_inicio"
+        android:layout_width="121dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/buttom_bd"
+        android:padding="8dp"
+        android:text="VOLVER"
+        android:textSize="9sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/consejos"
+        tools:ignore="MissingConstraints,SmallSp,TouchTargetSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="TUS REGISTROS ALMACENADOS IMC:"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="74dp"/>
+    <ListView
+        android:id="@+id/registros"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
