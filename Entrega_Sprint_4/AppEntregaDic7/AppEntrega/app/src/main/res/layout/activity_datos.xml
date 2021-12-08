@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_light"
+        android:orientation="vertical"
+        android:padding="4dp">
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:gravity="center_horizontal"
+        android:padding="1dp"
+        android:text="Selecciona:"
+        android:textColor="#1565C0"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+        <RadioGroup
+            android:id="@+id/genero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_masculino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:checked="true"
+                android:text="Masculino"
+                android:textColor="#1565C0"
+                android:padding="10dp"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Femenino"
+                android:textColor="#1565C0"
+                android:padding="10dp"
+                android:textSize="14sp"
+                 />
+
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Estatura"
+            android:textColor="#1565C0"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/estatura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#FFFFFF"
+            android:hint="cms"
+            android:ems="4"
+            android:inputType="numberDecimal"
+            android:padding="8dp"
+            android:textColor="#171616" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Peso"
+            android:textColor="#1565C0"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/peso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#FFFFFF"
+            android:ems="4"
+            android:hint="kg"
+            android:inputType="numberDecimal"
+            android:padding="8dp"
+            android:textColor="#100F0F" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Edad"
+            android:textColor="#1565C0"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/edad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#FFFFFF"
+            android:ems="4"
+            android:hint="años"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textColor="#100F0F" />
+
+        <Button
+            android:id="@+id/calcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:text="Calcular"
+            android:textColor="#1565C0" />
+
+        <TextView
+            android:id="@+id/basal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:padding="4dp"
+            android:text="Su metabolismo basal es:"
+            android:textColor="#1565C0"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/imc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:padding="4dp"
+            android:text="Su IMC es:"
+            android:textColor="#1565C0"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tipodepeso"
+            android:layout_margin="4dp"
+            android:gravity="center_horizontal"
+            android:padding="4dp"
+            android:text="Se encuentra en:"
+            android:textColor="#1565C0"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/reporte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:text="Reporte"
+            android:textColor="#1565C0" />
+
+    </LinearLayout>
+</ScrollView>

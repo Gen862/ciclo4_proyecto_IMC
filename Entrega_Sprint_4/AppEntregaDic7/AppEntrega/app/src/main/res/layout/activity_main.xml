@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="vertical"
+    android:padding="4dp">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/unab" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:padding="1dp"
+            android:text="Bienvenido a la App IMC"
+            android:textColor="#1565C0"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="fill_horizontal"
+            android:padding="1dp"
+            android:text="Como parte de nuestro compromiso con tu salud, la UNAB en asociación con Bienestar Universitario traemos esta App, mediante la cual tendrás la opción de hacer una validación de tu peso correcto con tus medidas y peso ideal acorde a tu estatura, la app también brindará sugerencias de alimentación saludable y actividad fisica."
+            android:textColor="#00695C"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Ingresa tus datos"
+            android:textColor="#1565C0"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="fill_horizontal"
+            android:padding="1dp"
+            android:text="Email:"
+            android:textColor="#1565C0"
+            android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/emailType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:hint="xxx@edu.es o .bu"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="fill_horizontal"
+            android:padding="1dp"
+            android:text="Contraseña:"
+            android:textColor="#1565C0"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/contrasenaType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="6 caracteres"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/aceptar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Aceptar"
+            android:textColor="#1565C0"/>
+
+
+        <Button
+            android:id="@+id/registrar_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Registrar"
+            android:textColor="#1565C0"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
