@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "732752142285",
+    "project_id": "appdeentregaimc",
+    "storage_bucket": "appdeentregaimc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732752142285:android:7b018eece64acfa7722e84",
+        "android_client_info": {
+          "package_name": "com.example.appentrega"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732752142285-iq1mmj7f7pc0v1oi6mptllvfot0q4cv0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appentrega",
+            "certificate_hash": "ebad3151392d6d6d0fb558dceff971b35f4698cc"
+          }
+        },
+        {
+          "client_id": "732752142285-3i203bqkbqjon1bo2oo9g1a8hj66uqen.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbiHGERUnsHAzxfIruGjZT7WS_cdAP9Pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732752142285-3i203bqkbqjon1bo2oo9g1a8hj66uqen.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
